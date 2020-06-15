@@ -10,7 +10,7 @@ public class EsempioController {
 	@RequestMapping("/welcome")
 	public ModelAndView printHelloWorld() {
 		
-		return new ModelAndView("welcome", "messaggio", "Ciao a tutti");
+		return new ModelAndView("giovanni", "messaggio", "Ciao a tutti");
 	}
 
 }
